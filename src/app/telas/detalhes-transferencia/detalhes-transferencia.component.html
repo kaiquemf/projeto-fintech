@@ -1,0 +1,14 @@
+<section class="detalhes-dialog">
+  <div>
+    <h2>Detalhes da Transferência</h2>
+    <button (click)="dialog.closeAll()">
+      <span class="material-symbols-rounded">close</span>
+    </button>
+  </div>
+  <main class="dados">
+  <p><strong>Estabelecimento:</strong> {{ data.nomeEstabelecimento }}</p>
+  <p><strong>Data da Transação:</strong> {{ data.dataTransacao.toLocaleString() }}</p>
+  <p><strong>Valor da Transação:</strong> {{ data.valorTransacao }}</p>
+  <p><strong>Observação:</strong> {{ data.observacao }}</p>
+  </main>
+</section>

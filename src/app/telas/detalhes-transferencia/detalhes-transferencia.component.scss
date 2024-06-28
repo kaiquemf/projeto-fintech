@@ -1,0 +1,28 @@
+.detalhes-dialog {
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  z-index: 9999;
+  div {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dados {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
