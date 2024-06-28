@@ -12,4 +12,5 @@ As seguintes ferramentas foram utilizadas para a criação do projeto:
 
 ## ⚙️ Maneiras de Acessar o Sistema
 - Acessar o link do [vercel](https://projeto-fintech-nine.vercel.app/);
-- Rodar o projeto dentro de uma interface de desenvolvimento digitando npm start no terminal com o projeto aberto
+- Rodar o projeto dentro de uma interface de desenvolvimento digitando npm start no terminal com o projeto aberto;
+- Para acessar os detalhes basta clicar em uma transferência.
