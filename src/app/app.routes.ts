@@ -1,3 +1,7 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { PaginaInicialComponent } from "./telas/pagina-inicial/pagina-inicial.component";
+
+export const routes: Routes = [
+  { path: '', component: PaginaInicialComponent }
+];

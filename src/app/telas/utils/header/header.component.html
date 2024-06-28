@@ -1,0 +1,15 @@
+<header>
+  <button>
+    <span class="material-symbols-rounded">menu</span>
+  </button>
+
+  <span class="nomeTela">{{nomeTela}}</span>
+
+  <button *ngIf="!temCriacao">
+    <span class="material-symbols-rounded">notifications</span>
+  </button>
+
+  <button *ngIf="temCriacao">
+    <span class="material-symbols-rounded">add_circle</span>
+  </button>
+</header>

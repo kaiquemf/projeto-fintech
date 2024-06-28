@@ -1,0 +1,16 @@
+<div class="card" *ngFor="let estabelecimento of estabelecimentos">
+  <div class="frame">
+    <img [src]="'/Ellipse%203.png'" height="38" width="38" alt="Imagem de Logo">
+    <section class="estabelecimento">
+      <strong>{{ estabelecimento.nomeEstabelecimento }}</strong>
+      <span>{{ estabelecimento.dataTransacao.toLocaleDateString()}}</span>
+    </section>
+  </div>
+
+  <section class="valor">
+    <strong [class]="estabelecimento.valorNumber <= 0 ? 'valor-negativo' : 'valor-positivo'">
+      {{ estabelecimento.valorTransacao }}
+    </strong>
+    <span>Transferência</span>
+  </section>
+</div>

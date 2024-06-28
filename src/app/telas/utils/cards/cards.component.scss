@@ -1,0 +1,49 @@
+.card {
+  min-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #D9D9D9;
+  padding: .6rem 1rem;
+  margin: 0 0 2.2rem 0;
+  border-radius: 1.2rem;
+  gap: 40vw;
+
+  .frame {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    span {
+      font-weight: 200;
+    }
+  }
+
+  .estabelecimento, .valor {
+    strong {
+      font-size: 1.2rem;
+    }
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  .estabelecimento {
+    align-items: flex-start;
+  }
+
+  .valor {
+    align-items: flex-end;
+
+    strong.valor-positivo {
+      color: #0AD906;
+    }
+    strong.valor-negativo {
+      color: red;
+    }
+  }
+}
